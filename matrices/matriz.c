@@ -13,7 +13,6 @@ int main() {
             printf("\n Introducir valor de [%d][%d] : ",i,j);
             scanf("%d",&a[i][j]);
         }
-    system("cls");
     
     printf("Segunda matriz [3x3] ");
     
@@ -25,7 +24,6 @@ int main() {
             scanf("%d",&b[i][j]);
         }
     
-    system("cls");
     
     for(i=1;i<=3;i++)//
         for(j=1;j<=3;j++)//columnas
