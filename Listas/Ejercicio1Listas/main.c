@@ -100,7 +100,7 @@ int main(){
     printf("\nDato a ingresar :");
     scanf("%d",&dato);
         if(dato != -1){
-            insertar_al_principio(root,dato);
+            insertar_al_final(root,dato);
             imprimir_lista(root);
         }
         else{
